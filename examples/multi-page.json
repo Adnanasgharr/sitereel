@@ -1,0 +1,29 @@
+{
+  "url": "https://alexander-pollock.konvoystudio.com",
+  "format": "16:9",
+  "quality": "1080p",
+  "fps": 60,
+  "speed": "medium",
+  "transition": { "type": "crossfade", "duration": 0.8 },
+  "hide": [],
+  "pages": [
+    { "path": "/" },
+    {
+      "path": "/projects/mornington-beach-house",
+      "pauseOn": ["header + section", "section.relative.h-\\[400vh\\] + section"]
+    },
+    {
+      "path": "/about",
+      "actions": [
+        { "scrollTo": "#services", "offset": 60 },
+        { "hold": 1.2 },
+        { "click": "#services button[aria-controls=\"service-1\"]" },
+        { "hold": 2 },
+        { "click": "#services button[aria-controls=\"service-2\"]" },
+        { "hold": 2 },
+        { "scrollTo": "bottom" }
+      ]
+    },
+    { "path": "/contact", "speed": "slow" }
+  ]
+}

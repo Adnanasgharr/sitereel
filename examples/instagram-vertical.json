@@ -1,0 +1,12 @@
+{
+  "url": "https://alexander-pollock.konvoystudio.com",
+  "format": "9:16",
+  "quality": "1080p",
+  "fps": 60,
+  "speed": "fast",
+  "pause": 0.6,
+  "transition": "cut",
+  "pages": [
+    { "path": "/", "endHold": 0.8 }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "url": "https://app.example.com",
+  "format": "16:9",
+  "auth": {
+    "login": {
+      "url": "https://app.example.com/login",
+      "steps": [
+        { "fill": "input[type=email]", "value": "$ENV:SITE_EMAIL" },
+        { "fill": "input[type=password]", "value": "$ENV:SITE_PASSWORD" },
+        { "click": "button[type=submit]" },
+        { "waitForUrl": "**/dashboard" }
+      ]
+    }
+  },
+  "hide": ["#intercom-container"],
+  "pages": ["/dashboard", "/projects"]
+}

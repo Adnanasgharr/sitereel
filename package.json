@@ -1,0 +1,20 @@
+{
+  "name": "sitereel",
+  "version": "1.0.0",
+  "description": "Turn any website into a smooth, studio-quality scroll video (60fps, frame-by-frame rendering).",
+  "private": true,
+  "bin": {
+    "sitereel": "bin/sitereel.js"
+  },
+  "scripts": {
+    "start": "node bin/sitereel.js",
+    "help": "node bin/sitereel.js --help"
+  },
+  "engines": {
+    "node": ">=18.17"
+  },
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "1.1.0",
+    "playwright": "1.65.0"
+  }
+}

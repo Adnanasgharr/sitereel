@@ -1,0 +1,9 @@
+node_modules/
+*.mp4
+*.mov
+*.webm
+.sitereel-frames/
+# Login/session files can contain private cookies — never commit them
+cookies*.json
+*storage-state*.json
+.env
